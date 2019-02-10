@@ -6,8 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 
 public class SelectActivity extends AppCompatActivity {
-    public static int i=0;
-
+    public final static String EXTRA_OPTION = "com.example.srish.pieboard.OPTION";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -15,15 +14,19 @@ public class SelectActivity extends AppCompatActivity {
     }
 
     public void Im1(View view) {
-        i=1;
         Intent intent =new Intent(this, ParaActivity.class);
+        Bundle extras = new Bundle();
+        extras.putInt(EXTRA_OPTION,1);
+        intent.putExtras(extras);
                 startActivity(intent);
     }
 
 
     public void Im2(View view) {
-        i=2;
         Intent intent =new Intent(this, ParaActivity.class);
+        Bundle extras = new Bundle();
+        extras.putInt(EXTRA_OPTION,2);
+        intent.putExtras(extras);
         startActivity(intent);
     }
 }

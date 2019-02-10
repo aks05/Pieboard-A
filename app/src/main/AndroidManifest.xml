@@ -16,16 +16,23 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Instrnc" />
-        <activity android:name=".SelectActivity" />
-        <activity android:name=".ParaActivity">
+        <activity android:name=".WelcomeActivity"
+            android:parentActivityName=".MainActivity">
         </activity>
-        <activity android:name=".VRActivity" />
-        <activity android:name=".showResultActivity">
+        <activity android:name=".Instrnc"
+            android:parentActivityName=".WelcomeActivity"/>
+        <activity android:name=".SelectActivity"
+            android:parentActivityName=".Instrnc"/>
+        <activity android:name=".ParaActivity"
+            android:parentActivityName=".SelectActivity">
         </activity>
-        <activity android:name=".IRActivity">
+        <activity android:name=".VRActivity"
+            android:parentActivityName=".ParaActivity"/>
+        <activity android:name=".showResultActivity"
+            android:parentActivityName=".ParaActivity">
         </activity>
-        <activity android:name=".WelcomeActivity">
+        <activity android:name=".IRActivity"
+            android:parentActivityName=".ParaActivity">
         </activity>
     </application>
 
