@@ -29,6 +29,7 @@ public class ParaActivity extends AppCompatActivity {
 
     public void OSr(View view) {
         Intent intent=new Intent(this,showResultActivity.class);
+
         startActivity(intent);
     }
 

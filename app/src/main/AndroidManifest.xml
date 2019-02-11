@@ -27,8 +27,7 @@
             android:parentActivityName=".SelectActivity">
         </activity>
         <activity android:name=".VRActivity" />
-        <activity android:name=".showResultActivity"
-            android:parentActivityName=".ParaActivity">
+        <activity android:name=".showResultActivity">
         </activity>
         <activity android:name=".IRActivity">
         </activity>
