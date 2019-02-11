@@ -26,13 +26,11 @@
         <activity android:name=".ParaActivity"
             android:parentActivityName=".SelectActivity">
         </activity>
-        <activity android:name=".VRActivity"
-            android:parentActivityName=".ParaActivity"/>
+        <activity android:name=".VRActivity" />
         <activity android:name=".showResultActivity"
             android:parentActivityName=".ParaActivity">
         </activity>
-        <activity android:name=".IRActivity"
-            android:parentActivityName=".ParaActivity">
+        <activity android:name=".IRActivity">
         </activity>
     </application>
 

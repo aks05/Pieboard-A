@@ -14,7 +14,7 @@ public class WelcomeActivity extends AppCompatActivity {
     }
 
     public void GetStarted(View view) {
-        Intent intent=new Intent(this,SelectActivity.class);
+        Intent intent=new Intent(this,Instrnc.class);
         startActivity(intent);
     }
 }

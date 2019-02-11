@@ -20,6 +20,7 @@ public class IRActivity extends AppCompatActivity implements
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ir);
+        intent=new Intent();
         // Create the spinner col_1.
         Spinner spinner = findViewById(R.id.col_1);
         if (spinner != null) {

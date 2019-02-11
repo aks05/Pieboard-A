@@ -24,10 +24,10 @@
 
     <Spinner
         android:id="@+id/col_1"
-        android:layout_width="20dp"
+        android:layout_width="60dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="112dp"
-        android:layout_marginEnd="88dp"
+        android:layout_marginEnd="80dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -35,7 +35,7 @@
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
+        android:layout_marginStart="48dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="8dp"
         android:text="Choose Column"
@@ -43,36 +43,33 @@
         android:textColor="@android:color/background_dark"
         android:textSize="18sp"
         app:layout_constraintEnd_toStartOf="@+id/col_1"
-        app:layout_constraintHorizontal_bias="0.289"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
     <Spinner
         android:id="@+id/row_1"
-        android:layout_width="20dp"
+        android:layout_width="60dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="28dp"
-        android:layout_marginEnd="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="60dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.6"
-        app:layout_constraintStart_toEndOf="@+id/textView10"
-        app:layout_constraintTop_toBottomOf="@+id/col_2" />
+        app:layout_constraintHorizontal_bias="0.852"
+        app:layout_constraintStart_toEndOf="@+id/textView6"
+        app:layout_constraintTop_toBottomOf="@+id/col_1" />
 
 
     <TextView
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
+        android:layout_marginStart="48dp"
         android:layout_marginTop="24dp"
-        android:layout_marginEnd="8dp"
         android:text="Choose Row"
         android:textAlignment="textStart"
         android:textColor="@android:color/background_dark"
         android:textSize="18sp"
-        app:layout_constraintEnd_toStartOf="@+id/col_1"
-        app:layout_constraintHorizontal_bias="0.243"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
@@ -80,7 +77,7 @@
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
+        android:layout_marginStart="32dp"
         android:layout_marginTop="40dp"
         android:layout_marginEnd="8dp"
         android:text="Selct final Point"
@@ -88,21 +85,21 @@
         android:textColor="@android:color/holo_red_light"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.17"
+        app:layout_constraintHorizontal_bias="0.078"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
     <Spinner
         android:id="@+id/col_2"
-        android:layout_width="20dp"
+        android:layout_width="60dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="104dp"
         android:layout_marginEnd="8dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.54"
+        app:layout_constraintHorizontal_bias="0.555"
         app:layout_constraintStart_toEndOf="@+id/textView9"
-        app:layout_constraintTop_toBottomOf="@+id/row_2" />
+        app:layout_constraintTop_toBottomOf="@+id/row_1" />
 
 
     <TextView
@@ -120,15 +117,15 @@
 
     <Spinner
         android:id="@+id/row_2"
-        android:layout_width="20dp"
-        android:layout_height="wrap_content"
+        android:layout_width="60dp"
+        android:layout_height="22dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="24dp"
-        android:layout_marginEnd="8dp"
+        android:layout_marginEnd="68dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.601"
-        app:layout_constraintStart_toEndOf="@+id/textView6"
-        app:layout_constraintTop_toBottomOf="@+id/col_1" />
+        app:layout_constraintHorizontal_bias="0.906"
+        app:layout_constraintStart_toEndOf="@+id/textView10"
+        app:layout_constraintTop_toBottomOf="@+id/col_2" />
 
 
     <TextView
@@ -152,6 +149,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="48dp"
+        android:background="@color/colorPrimary"
         android:onClick="Submit"
         android:padding="8dp"
         android:text="Submit"
