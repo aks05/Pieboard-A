@@ -10,7 +10,7 @@
     <string name="ButtonI1">OK Got it</string>
     <string name="breadboard_image">Breadboard Image</string>
     <string name="title_activity_para">ParaActivity</string>
-    <string name="sAtext"><u>Select your Pieboard</u></string>
+    <string name="sAtext"><u>Select your Breadboard</u></string>
     <string-array name="col_array">
         <item>a</item>
         <item>b</item>
