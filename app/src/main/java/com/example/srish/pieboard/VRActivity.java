@@ -57,7 +57,7 @@ public class VRActivity extends AppCompatActivity implements
                 (android.R.layout.simple_spinner_dropdown_item);
         // Apply the adapter to the spinner.
         if (spinner2 != null) {
-            spinner2.setAdapter(adapter);
+            spinner2.setAdapter(adapter2);
         }
         Spinner spinner3 = findViewById(R.id.col_2);
         if (spinner3 != null) {
@@ -71,7 +71,7 @@ public class VRActivity extends AppCompatActivity implements
                 (android.R.layout.simple_spinner_dropdown_item);
         // Apply the adapter to the spinner.
         if (spinner3 != null) {
-            spinner3.setAdapter(adapter);
+            spinner3.setAdapter(adapter3);
         }
         Spinner spinner4 = findViewById(R.id.row_2);
         if (spinner4 != null) {
@@ -85,7 +85,7 @@ public class VRActivity extends AppCompatActivity implements
                 (android.R.layout.simple_spinner_dropdown_item);
         // Apply the adapter to the spinner.
         if (spinner4 != null) {
-            spinner4.setAdapter(adapter);
+            spinner4.setAdapter(adapter4);
         }
     }
 

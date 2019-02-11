@@ -65,12 +65,12 @@ public class ParaActivity extends AppCompatActivity {
             if (resultCode == RESULT_OK) {
                 if(textView.getText().equals("You have not selected any Parameter"))
                     textView.setText("Voltage:Initial Point:"+data.getStringExtra(VRActivity.EXTRA_RETURN_MESSAGE_1)
-                            +data.getStringExtra(VRActivity.EXTRA_RETURN_MESSAGE_2)+" Final Point"
+                            +data.getStringExtra(VRActivity.EXTRA_RETURN_MESSAGE_2)+" Final Point: "
                             +data.getStringExtra(VRActivity.EXTRA_RETURN_MESSAGE_3)
                             +data.getStringExtra(VRActivity.EXTRA_RETURN_MESSAGE_4)+"\n");
                 else
                     textView.append("Voltage:Initial Point:"+data.getStringExtra(VRActivity.EXTRA_RETURN_MESSAGE_1)
-                            +data.getStringExtra(VRActivity.EXTRA_RETURN_MESSAGE_2)+" Final Point"
+                            +data.getStringExtra(VRActivity.EXTRA_RETURN_MESSAGE_2)+" Final Point: "
                             +data.getStringExtra(VRActivity.EXTRA_RETURN_MESSAGE_3)
                             +data.getStringExtra(VRActivity.EXTRA_RETURN_MESSAGE_4)+"\n");
                 // process data
@@ -91,12 +91,12 @@ public class ParaActivity extends AppCompatActivity {
             if (resultCode == RESULT_OK) {
                 if(textView.getText().equals("You have not selected any Parameter"))
                     textView.setText("Resistance:Initial Point:"+data.getStringExtra(VRActivity.EXTRA_RETURN_MESSAGE_1)
-                            +data.getStringExtra(VRActivity.EXTRA_RETURN_MESSAGE_2)+" Final Point"
+                            +data.getStringExtra(VRActivity.EXTRA_RETURN_MESSAGE_2)+" Final Point: "
                             +data.getStringExtra(VRActivity.EXTRA_RETURN_MESSAGE_3)
                             +data.getStringExtra(VRActivity.EXTRA_RETURN_MESSAGE_4)+"\n");
                 else
-                    textView.append("Current:Initial Point:"+data.getStringExtra(VRActivity.EXTRA_RETURN_MESSAGE_1)
-                            +data.getStringExtra(VRActivity.EXTRA_RETURN_MESSAGE_2)+" Final Point"
+                    textView.append("Resistance:Initial Point:"+data.getStringExtra(VRActivity.EXTRA_RETURN_MESSAGE_1)
+                            +data.getStringExtra(VRActivity.EXTRA_RETURN_MESSAGE_2)+" Final Point: "
                             +data.getStringExtra(VRActivity.EXTRA_RETURN_MESSAGE_3)
                             +data.getStringExtra(VRActivity.EXTRA_RETURN_MESSAGE_4)+"\n");
                 // process data

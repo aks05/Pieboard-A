@@ -47,7 +47,7 @@ public class IRActivity extends AppCompatActivity implements
                 (android.R.layout.simple_spinner_dropdown_item);
         // Apply the adapter to the spinner.
         if (spinner2 != null) {
-            spinner2.setAdapter(adapter);
+            spinner2.setAdapter(adapter2);
         }
     }
 
